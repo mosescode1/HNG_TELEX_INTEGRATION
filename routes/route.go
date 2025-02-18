@@ -7,5 +7,6 @@ import (
 
 
 func SetupRoutes(app *fiber.App) {
+	app.Get("/", handler.HandleHome)
 	app.Get("/integration_json", handler.HandleIntegrationJson)
 }

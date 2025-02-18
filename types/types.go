@@ -32,11 +32,11 @@ type Data struct {
 	IntegrationType    string      `json:"integration_type"`
 	IsActive           bool        `json:"is_active"`
 	KeyFeatures        []string    `json:"key_features"`
-	Permissions        Permission  `json:"permissions"`
+	// Permissions        Permission  `json:"permissions"`
 	Settings           []Setting   `json:"settings"`
 	TargetURL          string      `json:"target_url"`
-	TickURL            string      `json:"tick_url"`
-	Website            string      `json:"website"`
+	// TickURL            string      `json:"tick_url"`
+	// Website            string      `json:"website"`
 }
 
 type RootJson struct {
